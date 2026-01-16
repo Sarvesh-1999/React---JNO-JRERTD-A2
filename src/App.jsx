@@ -1,13 +1,13 @@
-import ClassBasedComponent from "./Topics/01_TypesOfComponent/ClassBasedComponent";
-import FunctionBasedComponent from "./Topics/01_TypesOfComponent/FunctionBasedComponent"
 import StatesInFunctionBased from "./Topics/02_States/StatesInFunctionBased";
+import StatesInClassBased from "./Topics/02_States/StatesInClassBased";
+import DropDown from "./Topics/02_States/Dropdown";
 
 function App() {
   return (
     <div>
-      {/* <FunctionBasedComponent /> */}
-      {/* <ClassBasedComponent /> */}
-      <StatesInFunctionBased/>
+      {/* <StatesInFunctionBased /> */}
+      {/* <StatesInClassBased /> */}
+      <DropDown/>
     </div>
   );
 }
