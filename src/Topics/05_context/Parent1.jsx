@@ -2,6 +2,7 @@ import { useContext } from "react";
 import ChildA1 from "./ChildA1";
 import { myContextStore } from "./Context";
 const Parent1 = () => {
+    
   let { isLoggedIn } = useContext(myContextStore);
 
   return (
