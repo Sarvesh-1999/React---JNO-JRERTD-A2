@@ -7,6 +7,7 @@ const UserLists = () => {
   return (
     <div>
       <h1>UserLists</h1>
+      
 
     {users.map((user) => {
     return <User key={user.id} user={user} />;
