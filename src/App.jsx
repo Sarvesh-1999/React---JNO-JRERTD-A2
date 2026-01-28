@@ -11,6 +11,9 @@ import UserLists from "./Topics/06_Lists/UserLists";
 import LifeCycleInCBC from "./Topics/07_LifeCycle/LifeCycleInCBC";
 import { useState } from "react";
 import LifeCycleInFBC from "./Topics/07_LifeCycle/LifeCycleInFBC";
+import Fetch1 from "./Topics/08_FetchApi/Fetch1";
+import Fetch2 from "./Topics/08_FetchApi/Fetch2";
+import Loader from "./Components/Loader";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -34,12 +37,16 @@ function App() {
 
       {/* <UserLists/> */}
 
-      <button onClick={handleToggle}>toggle me</button>
+      {/* <button onClick={handleToggle}>toggle me</button> */}
 
       {/* {toggle && <LifeCycleInCBC />} */}
 
-      {toggle && <LifeCycleInFBC />}
-      
+      {/* {toggle && <LifeCycleInFBC />} */}
+
+      {/* <Fetch1 /> */}
+
+      <Fetch2/>
+
     </div>
   );
 }
