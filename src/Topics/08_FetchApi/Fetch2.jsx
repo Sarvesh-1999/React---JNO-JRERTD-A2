@@ -26,17 +26,25 @@ const Fetch2 = () => {
   return (
     <div>
       <h1>All Products</h1>
-      
-      {loading ? <Loader/> : allProducts.map((ele) => {
-        return (
-            <div key={ele.id}>
-                <img src={ele.thumbnail} alt={ele.title} height={100} width={100}/>
-                <h4>{ele.title}</h4>
-                <p>{ele.description}</p>
-            </div>
-        )
-      })}
 
+      {loading ? (
+        <Loader />
+      ) : (
+        allProducts.map((ele) => {
+          return (
+            <div key={ele.id}>
+              <img
+                src={ele.thumbnail}
+                alt={ele.title}
+                height={100}
+                width={100}
+              />
+              <h4>{ele.title}</h4>
+              <p>{ele.description}</p>
+            </div>
+          );
+        })
+      )}
     </div>
   );
 };

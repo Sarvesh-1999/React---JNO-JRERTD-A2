@@ -14,6 +14,10 @@ import LifeCycleInFBC from "./Topics/07_LifeCycle/LifeCycleInFBC";
 import Fetch1 from "./Topics/08_FetchApi/Fetch1";
 import Fetch2 from "./Topics/08_FetchApi/Fetch2";
 import Loader from "./Components/Loader";
+import Navbar from "./Topics/09_ReactCss/Navbar";
+import Header from "./Topics/09_ReactCss/Header";
+import Card from "./Topics/09_ReactCss/Card";
+import Footer from "./Topics/09_ReactCss/Footer";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -45,8 +49,12 @@ function App() {
 
       {/* <Fetch1 /> */}
 
-      <Fetch2/>
+      {/* <Fetch2 /> */}
 
+      <Navbar />
+      <Header/>
+      <Card/>
+      <Footer/>
     </div>
   );
 }

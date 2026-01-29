@@ -11,7 +11,7 @@ const Fetch1 = () => {
       let resp = await fetch("https://dummyjson.com/todos");
       let data = await resp.json();
 
-      setTodos(data.todos);
+      setTodos(data.todos);// [{},{},...]
       setLoading(false);
     } catch (err) {
       console.log(err);
