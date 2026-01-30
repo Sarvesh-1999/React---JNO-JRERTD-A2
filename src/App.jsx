@@ -18,6 +18,8 @@ import Navbar from "./Topics/09_ReactCss/Navbar";
 import Header from "./Topics/09_ReactCss/Header";
 import Card from "./Topics/09_ReactCss/Card";
 import Footer from "./Topics/09_ReactCss/Footer";
+import Controlled1 from "./Topics/10_Forms/Controlled1";
+import Controlled2 from "./Topics/10_Forms/Controlled2";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -51,10 +53,17 @@ function App() {
 
       {/* <Fetch2 /> */}
 
-      <Navbar />
-      <Header/>
-      <Card/>
-      <Footer/>
+      {/* <Navbar /> */}
+
+      {/* <Header/> */}
+
+      {/* <Card/> */}
+
+      {/* <Footer/> */}
+
+      <Controlled1 />
+
+      <Controlled2/>
     </div>
   );
 }
