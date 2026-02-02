@@ -20,6 +20,9 @@ import Card from "./Topics/09_ReactCss/Card";
 import Footer from "./Topics/09_ReactCss/Footer";
 import Controlled1 from "./Topics/10_Forms/Controlled1";
 import Controlled2 from "./Topics/10_Forms/Controlled2";
+import Uncontrolled from "./Topics/10_Forms/Uncontrolled";
+import Reducer from "./Topics/11_Reducer/Reducer";
+import Dashboard from "./Task1/Dashboard";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -61,9 +64,15 @@ function App() {
 
       {/* <Footer/> */}
 
-      <Controlled1 />
+      {/* <Controlled1 /> */}
 
-      <Controlled2/>
+      {/* <Controlled2/> */}
+
+      {/* <Uncontrolled /> */}
+
+      {/* <Reducer/> */}
+
+      <Dashboard />
     </div>
   );
 }
