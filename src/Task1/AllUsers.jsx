@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const AllUsers = () => {
   return (
-    <div>AllUsers</div>
-  )
-}
+    <section className="p-2">
+      <h1>All Employees</h1>
+    </section>
+  );
+};
 
-export default AllUsers
+export default AllUsers;
