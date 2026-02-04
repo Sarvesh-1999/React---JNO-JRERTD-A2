@@ -23,6 +23,7 @@ import Controlled2 from "./Topics/10_Forms/Controlled2";
 import Uncontrolled from "./Topics/10_Forms/Uncontrolled";
 import Reducer from "./Topics/11_Reducer/Reducer";
 import Dashboard from "./Task1/Dashboard";
+import Router from "./Task1/Router";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -72,7 +73,7 @@ function App() {
 
       {/* <Reducer/> */}
 
-      <Dashboard />
+      <Router />
     </div>
   );
 }
