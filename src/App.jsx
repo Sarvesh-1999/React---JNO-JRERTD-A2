@@ -24,6 +24,7 @@ import Uncontrolled from "./Topics/10_Forms/Uncontrolled";
 import Reducer from "./Topics/11_Reducer/Reducer";
 import Dashboard from "./Task1/Dashboard";
 import Router from "./Task1/Router";
+import Products from "./Topics/12_CustomHook/Products";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -73,7 +74,9 @@ function App() {
 
       {/* <Reducer/> */}
 
-      <Router />
+      {/* <Router /> */}
+
+      {/* <Products/> */}
     </div>
   );
 }

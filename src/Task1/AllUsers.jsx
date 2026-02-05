@@ -1,6 +1,7 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 const AllUsers = () => {
   const [employees, setEmployees] = useState([]);
@@ -65,9 +66,12 @@ const AllUsers = () => {
                     </p>
                   </div>
 
+                <Link to={`/edit-emp/${id}`}>
                   <button className="py-0.5 px-4 border cursor-pointer font-semibold border-gray-300 hover:border-amber-300 hover:text-amber-300 rounded">
                     Edit
                   </button>
+                </Link>
+
                   <button
                     onClick={() => handleDeleteEmployee(id)}
                     className="py-0.5 px-4 border cursor-pointer font-semibold border-gray-300 hover:border-red-500 hover:text-red-500 rounded ms-2"
